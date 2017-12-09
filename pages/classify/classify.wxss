@@ -1,0 +1,8 @@
+.classify{
+    padding-top: 20rpx;
+    padding-left: 11rpx;
+}
+.classify image{
+    margin: 10rpx auto;
+}
+

@@ -1,0 +1,8 @@
+<view class="classify">
+    <image src="../../images/c1.png" style="width:730rpx;height:200rpx"></image>
+    <image src="../../images/c2.png" style="width:730rpx;height:200rpx"></image>
+    <image src="../../images/c3.png" style="width:730rpx;height:200rpx"></image>
+    <image src="../../images/c4.png" style="width:730rpx;height:200rpx"></image>
+    <image src="../../images/c5.png" style="width:730rpx;height:200rpx"></image>
+    <image src="../../images/c6.png" style="width:730rpx;height:200rpx"></image>
+</view>

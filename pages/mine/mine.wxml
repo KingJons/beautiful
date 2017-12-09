@@ -1,0 +1,70 @@
+<view class="mine-header">
+    <image src="{{pic}}" style="width:125rpx;height:125rpx;border-radius:50%;"></image>
+    <text class="text-left" >{{name}}</text>
+    <text class="text-right">></text>
+</view>
+<view class="weui-cells">
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/activity.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>我的订单</text>
+        </view>
+        
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/add.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>收货地址</text>
+        </view>
+        
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/cart1.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>购物车</text>
+        </view>
+        
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/ld.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>系统通知</text>
+        </view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/card.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>会员卡</text>
+        </view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/yhj.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>优惠券</text>
+        </view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell weui-cell_assess">
+        <view class="weui-cell__hd">
+            <image src="../../images/pin.png" style="width:50rpx;height:50rpx;"></image>
+        </view>
+        <view class="weui-cell__bd">
+            <text>我的拼团</text>
+        </view>
+        <view class="weui-cell__ft"></view>
+    </view>
+</view>

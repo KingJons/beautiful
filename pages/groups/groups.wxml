@@ -1,0 +1,10 @@
+<view class="group-list">
+    <block wx:for="{{goods}}" wx:key="index" wx:for-index="index">
+        <view class="box" bindtap="buyView">
+            <image src="{{item.img}}" style="width:369rpx;height:370rpx;" class="image"></image>
+            <view class="title"><text>{{item.name}}</text></view>
+            <view class="price"><text>￥{{item.price}}</text>
+            <text class="num">销量：{{item.sell}}</text></view>
+        </view>
+    </block>
+</view>

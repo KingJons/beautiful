@@ -1,0 +1,39 @@
+
+.good-header{
+    /* width: 100%; */
+    height: 250rpx;
+    margin-left: 10rpx;
+    margin-top: 10rpx;
+    /* padding-right: 10rpx; */
+}
+
+.good-body{
+    width: 100%;
+    height: 605rpx;
+    margin-top: 10rpx;
+    margin-left: 10rpx;
+}
+.good-body .good-body__left {
+    position: absolute;
+}
+.good-body .good-body__right {
+    top: 270rpx;
+    left: 458rpx;
+    position: absolute;
+    /* margin-bottom: 5rpx; */
+}
+.good-foot{
+    width: 100%;
+    height: 605rpx;
+    margin-top: 20rpx;
+    margin-left: 10rpx;
+}
+.good-foot .good-foot__left {
+    position: absolute;
+}
+.good-foot .good-foot__right {
+    top: 895rpx;
+    left: 458rpx;
+    position: absolute;
+    /* margin-bottom: 5rpx; */
+}

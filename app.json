@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/groups/groups",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/goodclo/goodclo",
+    "pages/summer/summer",
+    "pages/buy/buy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff99ff",
+    "navigationBarTitleText": "美丽说",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ff99ff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/classify/classify",
+        "iconPath": "images/classify.png",
+        "selectedIconPath": "images/classify_active.png"
+      },
+      {
+        "text": "拼团",
+        "pagePath": "pages/groups/groups",
+        "iconPath": "images/groups.png",
+        "selectedIconPath": "images/groups_active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/cart.png",
+        "selectedIconPath": "images/cart_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine_active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<view class="summer-head">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">综合</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">销量</view>
+  <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">价格</view>
+</view>
+<view class="summer-body__search">
+  <view class="bd-btn" bindtap="search">
+    <input placeholder="请输入搜索内容"/>
+  </view>
+</view>
+<view class="summer-list">
+    <block wx:for="{{goods}}" wx:key="index" wx:for-index="index">
+        <view class="box">
+            <image src="{{item.img}}" style="width:369rpx;height:370rpx;" class="image"></image>
+            <view class="title"><text>{{item.name}}</text></view>
+            <view class="price"><text>￥{{item.price}}</text>
+            <text class="num">销量：{{item.sell}}</text></view>
+        </view>
+    </block>
+</view>

@@ -1,0 +1,134 @@
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+.page-header {
+ height: 250rpx;
+ width: 100%;
+}
+.page-header image {
+ height: 100%;
+ width: 100%;
+}
+.page-header-text {
+  height: 75rpx;
+  width: 100%;
+  font-size: 22rpx;
+  padding-left: 100rpx;
+  border-bottom: 1rpx solid #808080;
+}
+.page-header-text text{
+  line-height: 75rpx;
+  float: left;
+  margin-right: 140rpx;
+  color:#808080;
+}
+.page-body-wrapper{
+  width: 100%;
+  height: 250rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-bottom: 2.5rpx solid #808080;
+
+}
+.A, .C{ 
+  border-right: 2.5rpx solid #808080;
+}
+.A,.B{
+  border-bottom: 2.5rpx solid #808080;
+}
+.box .big{
+  font-size: 35rpx;
+  padding-top: 25rpx;
+  padding-left: 35rpx;
+  color: #808080;
+}
+.box .small{
+  font-size: 22rpx;
+  padding-left: 35rpx;
+  margin-top: 8rpx;
+  color: #808080;
+}
+.box .image{
+  margin-top: -105rpx;
+  margin-left: 260rpx;
+  position: absolute;
+}
+.page-body-center{
+  width: 100%;
+  height: 180rpx;
+  /* position: absolute; */
+  padding-left: 30rpx;
+  padding-top: 25rpx;
+}
+.page-body-center image{
+  float: left;
+  margin-right: 30rpx;
+}
+.page-body-receive{
+  width: 100%;
+  height: 75rpx;
+  border-top: 2.5rpx solid #808080;
+  border-bottom: 2.5rpx solid #808080;
+  padding-left: 80rpx;
+  font-size: 26rpx;
+  position: absolute;
+}
+.page-body-receive text{
+  position: relative;
+  line-height: 75rpx;
+  top:-20rpx;
+  margin-right: 10rpx;
+  /* margin-bottom: 50rpx; */
+}
+.page-body-receive .button{
+  position: absolute;  
+  width: 50rpx;
+  height: 25rpx;
+  border: 2.5rpx solid #F788AB;
+  border-radius: 40%;
+  font-size: 20rpx;
+  text-align: center;
+  line-height: 25rpx;
+  top: 25rpx;
+}
+.page-foot-top{
+  width: 100%;
+  /* height: 710rpx; */
+  padding-left: 6rpx;
+}
+.page-foot-top .ft-image1{
+  margin-top: 90rpx;
+  
+}
+.page-foot-top .ft-image2{
+  position: absolute;
+  /* padding-left: 10rpx; */
+  top: 1370rpx;
+  
+}
+.page-foot-top .ft-image2 image{
+  margin-right: 5rpx;
+  float: left;
+}
+.page-foot-bottom{
+  width: 100%;
+  /* height: 710rpx; */
+  padding-left: 6rpx;
+}
+.page-foot-bottom .ft-image3{
+  margin-top: 270rpx;
+  
+}
+.page-foot-bottom .ft-image4{
+  position: absolute;
+  /* padding-left: 10rpx; */
+  top: 2150rpx;
+  
+}
+.page-foot-bottom .ft-image4 image{
+  margin-right: 5rpx;
+  float: left;
+}

@@ -1,0 +1,18 @@
+<view class="good-header">
+    <image src="../../images/good-hd.png" style="height:250rpx;width:732rpx;"></image>
+</view>
+<view class="good-body">
+    <view class="good-body__left"><image src="../../images/good-bd_lf.png" style="width:445rpx;height:605rpx;"></image></view>
+    <view class="good-body__right">
+        <image src="../../images/good-bd_top.png" style="width:284rpx;height:290rpx;"></image>
+        <image src="../../images/good-bd_bt.png" style="width:284rpx;height:300rpx;"></image>
+    </view>   
+</view>
+<view class="good-foot">
+    <view class="good-foot__left"><image src="../../images/good-ft__left.png" style="width:445rpx;height:605rpx;"></image></view>
+    <view class="good-foot__right">
+        <image src="../../images/good-ft__top.png" style="width:284rpx;height:290rpx;"></image>
+        <image src="../../images/good-ft__bt.png" style="width:284rpx;height:300rpx;"></image>
+    </view>   
+</view>
+

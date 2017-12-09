@@ -1,0 +1,45 @@
+<view class="buy-head">
+    <image src="{{good.img}}" style="width:375px;height:360px;"></image>
+</view>
+<view class="buy-body">
+    <view class="title"><text>{{good.name}}</text></view>
+    <view class="price"><text>￥{{good.price}}</text></view>
+    <view class="count"><text>库存：{{good.count}}</text></view>  
+    <view class="freight"><text>运费：{{good.freight}}</text></view>
+</view>
+<view class="buy-evaluate">
+    <text class="line"></text>
+    <text class="text">评价</text>
+    <text class="line"></text>
+</view>
+<view class="evaluate-content">
+    <text class="text">评价（0）</text>
+    <text class="line"></text>
+</view>
+<view class="buy-details">
+    <text class="line"></text>
+    <text class="text">详情</text>
+    <text class="line"></text>
+</view>
+<view class="details-content">
+        
+    <text class="text">产品详情</text>
+    <text class="line"></text>
+    <text class="name">{{good.name}}</text>
+</view>
+<view class="buy-foot">
+    <view class="cart" bindtap="cartView">
+        <image src="../../images/cart2.png" style="width:50rpx;height:50rpx;"></image>
+        <text>购物车</text>
+    </view>
+    <view class="shop" bindtap="shopView">
+        <image src="../../images/shop.png" style="width:50rpx;height:50rpx;"></image>
+        <text class="text">店铺</text>
+    </view>
+    <view class="addCart" bindtap="addInCart" id="{{index}}">
+        <text>加入购物车</text>
+    </view>
+    <view class="buy" bindtap="buyBtn">
+        <text>立即购买</text>
+    </view> 
+</view>

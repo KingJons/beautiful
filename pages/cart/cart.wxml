@@ -1,0 +1,45 @@
+<view class="cart-header">
+    <view class="cart-header-title">
+        <text>购物车</text> <text>编辑</text>
+    </view>
+</view>
+
+
+<view class="weui-cells">
+    <block wx:for="{{goodsList}}" wx:key="index" data-index="index">
+            <view class="weui-cell weui-cell_assess">
+                    <view class="weui-cell__hd">
+                        <icon type="success" color="#ff7100"></icon>
+                    </view>
+                    <view class="weui-cell__bd">
+                        <image src="{{item.img}}" />
+                    </view>
+                    <view class="weui-cell__ft">
+                        <text class="name">{{item.name}}</text>
+                        <text class="price">价格：￥{{item.price}}</text>
+                        <view class="count">
+                            <text class="reduce" bindtap="reduceCount" id="{{index}}">-</text>
+                            <text class="number">{{item.num}}</text>
+                            <text class="add" bindtap="addCount" id="{{index}}">+</text>
+                        </view>
+                    </view>
+                </view>
+    </block>
+</view>
+
+
+<view class="cart-foot">
+    <view class="cart-foot-left">
+        <icon type="success" color="#ff7100" style="width:50rpx;height:50rpx;"></icon>
+        全选
+    </view>
+    <view class="cart-foot-center">
+        <text>合计：</text>
+        <text class="count">￥{{sum}}.00</text>
+    </view>
+    <view class="cart-foot-right">
+        <text>结算</text>
+    </view>
+</view>
+
+

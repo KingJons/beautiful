@@ -1,0 +1,66 @@
+<swiper class="page-header" indicator-dots="true" autoplay="true" interval="2000" duration="1000">  
+    <swiper-item>  
+      <image src="http://img.weiye.me/zcimgdir/album/file_59c081abe9cff.png"  mode="aspectFill" bindtap="swiperView1"/>
+    </swiper-item> 
+    <swiper-item>
+      <image src="http://img.weiye.me/zcimgdir/album/file_59b102f038b65.png"  mode="aspectFill" bindtap="swiperView2"/>
+    </swiper-item>  
+</swiper>
+<view class="page-header-text">
+  <text>正品保障</text>
+  <text>极速发货</text>
+  <text>七天退换</text>
+</view>
+<view class="page-body-wrapper">
+  <view class="box A" bindtap="popularView">
+    <view class="big"><text>流行趋势</text></view>
+    <view class="small"><text>2017年最值得购买</text></view>
+    <image src="../../images/popular.jpg" style="width:90rpx;height:110rpx;" class="image"></image>
+  </view>
+  <view class="box B">
+    <view class="big"><text>美妆大牌</text></view>
+    <view class="small"><text>时尚博主美妆品牌推荐</text></view>
+    <image src="../../images/beautiful.jpg" style="width:90rpx;height:110rpx;" class="image"></image>
+  </view>
+  <view class="box C" bindtap="goodView">
+    <view class="big"><text>好物穿搭</text></view>
+    <view class="small"><text>完美搭配任你挑选</text></view>
+    <image src="../../images/good.jpg" style="width:90rpx;height:110rpx;" class="image"></image>
+  </view>
+  <view class="box">
+    <view class="big"><text>新品预告</text></view>
+    <view class="small"><text>新品上线期待</text></view>
+    <image src="../../images/new.jpg" style="width:90rpx;height:110rpx;" class="image"></image>
+  </view>
+</view>
+<view class="page-body-center">
+  <image src="http://img.weiye.me/zcimgdir/album/file_59ba486b8250a.png" style="width:150rpx;height:140rpx; border-radius:5%" class="image"></image>
+  <image src="http://img.weiye.me/zcimgdir/album/file_59ba490ec1b2f.png" style="width:150rpx;height:140rpx; border-radius:5%" class="image"></image>
+  <image src="http://img.weiye.me/zcimgdir/album/file_59ba4949722a8.png" style="width:150rpx;height:140rpx; border-radius:5%" class="image"></image>
+  <image src="http://img.weiye.me/zcimgdir/album/file_59b663e135edd.png" style="width:150rpx;height:140rpx; border-radius:5%" class="image"></image>
+</view>
+<view class="page-body-receive">
+  <view>
+  <image src="../../images/diamond.png" style="width:70rpx;height:70rpx;"></image>
+  <text>10.1-10.15日享大牌折扣</text> 
+  <text>多重优惠领取</text>
+  <text class="button">领取</text></view>
+</view>
+<view class="page-foot-top">
+  <view class="page-foot-top ft-image1"><a href="#"><image src="http://img.weiye.me/zcimgdir/album/file_59b2029fab820.png" style="width:730rpx;height:500rpx;"></image></a></view>
+  <view class="page-foot-top ft-image2">
+      <block wx:for="{{goods}}" wx:key="index" wx:for-index="index">
+        <image src="{{item.img}}" style="width:180rpx;height:275rpx;" bindtap="BuyView" id="{{index}}"></image>
+      </block>
+  </view>
+</view>
+<view class="page-foot-bottom">
+    <view class="page-foot-bottom ft-image3"><a href="#"><image src="http://img.weiye.me/zcimgdir/album/file_59b9ea30ecbbe.png" style="width:730rpx;height:500rpx;"></image></a></view>
+    <view class="page-foot-bottom ft-image4">
+        <image src="http://img.weiye.me/zcimgdir/album/file_59b208c75da6f.png" style="width:180rpx;height:275rpx;"></image>
+        <image src="http://img.weiye.me/zcimgdir/album/file_59b208c7c76e1.png" style="width:180rpx;height:275rpx;"></image>
+        <image src="http://img.weiye.me/zcimgdir/album/file_59b208c7c34e1.png" style="width:180rpx;height:275rpx;"></image>
+        <image src="http://img.weiye.me/zcimgdir/album/file_59b208c8541d3.png" style="width:180rpx;height:275rpx;"></image>
+    </view>
+  </view>
+

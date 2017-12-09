@@ -1,0 +1,69 @@
+.summer-head {
+    width: 100%;
+    border-bottom: 2rpx solid #cccccc;
+    height: 74rpx;
+    line-height: 74rpx;
+    display: flex; 
+    text-align: center;
+    flex-flow: row;
+}
+.swiper-tab-item {
+    flex: 1;
+    color: #434343;
+    font-size: 32rpx;
+}
+.active{
+    color: #F65959;
+    border-bottom: 4rpx solid #F65959;
+}
+.summer-body__search {
+    width: 100%;
+    height: 125rpx;
+    background-color: rgb(246, 246, 246);
+}
+.summer-body__search .bd-btn {
+    position: absolute;
+    width: 676rpx;
+    height: 75rpx;
+    margin-left: 40rpx;
+    margin-top: 25rpx;
+    /* border: 1rpx solid #808080; */
+    background-color: #ffffff;
+    border-radius: 10rpx;
+    
+}
+.bd-btn input {
+    margin-top: 10rpx;
+    text-align: center;
+    line-height: 75rpx;
+}
+.summer-list{
+    width: 100%;
+    height: 1000rpx;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 5rpx;
+    /* padding-top: 10rpx; */
+    position: absolute;
+}
+.title{
+    font-size: 30rpx;
+    color: #808080;
+    padding-left: 20rpx;
+    margin-top: 10rpx;
+}
+.price{
+    font-size: 30rpx;
+    color: red;
+    padding-left: 20rpx;
+    margin-top: 8rpx;
+}
+.num{
+    font-size: 30rpx;
+    padding-left: 15rpx;
+    margin-top: -37rpx;
+    color: #cccccc;
+}
+
+
